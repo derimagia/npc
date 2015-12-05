@@ -1,0 +1,6 @@
+.idea
+.hubotrc
+node_modules/
+.DS_Store*
+push.sh
+Vagrantfile
