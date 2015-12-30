@@ -26,6 +26,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-irc": "~0.2.6",
     "hubot-maps": "0.0.2",
+    "hubot-plusplus": "^1.2.0",
     "hubot-redis-brain": "0.0.2",
     "hubot-script-ical": "0.0.1",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
@@ -35,7 +36,10 @@
     "request": "~2.36.0",
     "sqlite3": ">= 2.1.10",
     "timeago": "~0.1.0",
-    "xml2js": "~0.4.3"
+    "xml2js": "~0.4.3",
+    "hubot-bookmark": "0.0.4",
+    "hubot-embedly": "~1.0.1",
+    "hubot-subreddit-linker": "~1.1.0"
   },
   "engines": {
     "node": ">= 0.8.x",

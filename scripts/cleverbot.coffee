@@ -20,10 +20,10 @@ module.exports = (robot) ->
 
   robot.respond /(.*)/i, (msg) ->
     unless msg.Response
+      data = msg.match[1].trim()
       cleverbot.prepare( =>
         c.write(data, (c) =>
           msg.send(msg.message.user.name + ": " + c.message)
+          msg.finish()
         )
       )
-      data = msg.match[1].trim()
-

@@ -8,6 +8,7 @@ export HUBOT_TELL_RELATIVE_TIME=true
 export WOTD_PROVIDER=wordnik
 #export LIVESTREAM_BROADCAST_ROOM="#random"
 export MUMBLE_BROADCAST_ROOM="#general"
+export HUBOT_EMBEDLY_API_KEY=""
 
 # AUTH
 export HUBOT_AUTH_ADMIN="Derimagia"
