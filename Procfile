@@ -1,1 +1,1 @@
-app: bin/hubot --adapter slack --name npc
+web: bin/hubot --adapter slack --name npc
