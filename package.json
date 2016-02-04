@@ -23,7 +23,6 @@
   "dependencies": {
     "cheerio": "~0.16.0",
     "cleverbot-node": "^0.2.1",
-    "forever": "^0.15.1",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-bookmark": "0.0.4",
     "hubot-embedly": "~1.0.1",
