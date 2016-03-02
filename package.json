@@ -25,7 +25,6 @@
     "cleverbot-node": "^0.2.1",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-bookmark": "0.0.4",
-    "hubot-embedly": "~1.0.1",
     "hubot-irc": "~0.2.6",
     "hubot-maps": "0.0.2",
     "hubot-plusplus": "^1.2.0",
