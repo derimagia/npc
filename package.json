@@ -21,23 +21,23 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "cheerio": "^0.16.0",
+    "cheerio": "^0.20.0",
     "cleverbot-node": "^0.2.2",
     "hubot": "^2.19.0",
     "hubot-bookmark": "0.0.4",
     "hubot-irc": "~0.2.6",
     "hubot-maps": "0.0.2",
     "hubot-plusplus": "^1.2.0",
-    "hubot-redis-brain": "0.0.2",
-    "hubot-script-ical": "0.0.1",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-script-ical": "^1.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-seen": "^0.2.2",
-    "hubot-shipit": "^0.1.2",
+    "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.4.2",
     "hubot-subreddit-linker": "~1.1.0",
     "request": "^2.72.0",
     "sqlite3": ">= 2.1.10",
-    "timeago": "^0.1.0",
+    "timeago": "^1.5.2",
     "xml2js": "~0.4.3"
   },
   "engines": {
