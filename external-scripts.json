@@ -1,1 +1,12 @@
-["hubot-redis-brain", "hubot-shipit", "hubot-script-ical", "hubot-plusplus", "hubot-bookmark", "hubot-subreddit-linker", "hubot-trivia-game", "hubot-javascript", "hubot-hackernews"]
+[
+  "hubot-redis-brain",
+  "hubot-shipit",
+  "hubot-script-ical",
+  "hubot-plusplus",
+  "hubot-bookmark",
+  "hubot-subreddit-linker",
+  "hubot-trivia-game",
+  "hubot-javascript",
+  "hubot-hackernews",
+  "hubot-curl"
+]

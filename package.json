@@ -25,6 +25,7 @@
     "cleverbot-node": "^0.2.2",
     "hubot": "^2.19.0",
     "hubot-bookmark": "0.0.4",
+    "hubot-curl": "^0.1.0",
     "hubot-hackernews": "^1.0.0",
     "hubot-irc": "~0.2.6",
     "hubot-javascript": "0.0.7",
