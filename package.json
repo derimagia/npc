@@ -27,6 +27,7 @@
     "hubot-bookmark": "0.0.4",
     "hubot-curl": "^0.1.0",
     "hubot-hackernews": "^1.0.0",
+    "hubot-heroku-keepalive": "^1.0.2",
     "hubot-irc": "~0.2.6",
     "hubot-manpages": "^1.0.0",
     "hubot-maps": "0.0.2",

@@ -7,5 +7,6 @@
   "hubot-subreddit-linker",
   "hubot-hackernews",
   "hubot-manpages",
-  "hubot-curl"
+  "hubot-curl",
+  "hubot-heroku-keepalive"
 ]
