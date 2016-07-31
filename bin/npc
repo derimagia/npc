@@ -1,3 +1,5 @@
 #!/bin/sh
-. ./.hubotrc
+
+cd $(dirname $0)/../
+. ./.env
 exec bin/hubot --name npc -a slack
