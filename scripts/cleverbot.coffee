@@ -16,9 +16,6 @@ module.exports = (robot) ->
   c = new cleverbot()
 
   robot.respond /(.*)/i, (msg) ->
-    if robot.name.toLowerCase() == msg.message.user.name.toLowerCase()
-      return null
-
     unless msg.Response
       data = msg.match[1].trim()
       cleverbot.prepare( =>
