@@ -1,13 +1,22 @@
-#!/bin/sh
 # SLACK
 export HUBOT_SLACK_TOKEN=""
 
+# GENERAL
+export TZ="America/New_York"
+
 # PLUGINS
 export WORDNIK_API_KEY=""
-export HUBOT_TELL_RELATIVE_TIME=true
+export HUBOT_GOOGLE_API_KEY=""
+export HUBOT_YOUTUBE_API_KEY=HUBOT_GOOGLE_API_KEY
+export HUBOT_YOUTUBE_DETERMINISTIC_RESULTS=true
+export STEAM_API_KEY=""
+
 export WOTD_PROVIDER=wordnik
 #export LIVESTREAM_BROADCAST_ROOM="#random"
-export HUBOT_EMBEDLY_API_KEY=""
+
+export HUBOT_EXTRA_MEMES=True
+export HUBOT_MEMEGENERATOR_USERNAME=""
+export HUBOT_MEMEGENERATOR_PASSWORD=""
 
 # AUTH
-export HUBOT_AUTH_ADMIN="Derimagia"
+export HUBOT_AUTH_ROLES="admin=derimagia"
