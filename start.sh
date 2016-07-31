@@ -1,3 +1,3 @@
 #!/bin/sh
 . ./.hubotrc
-bin/hubot --name npc -a slack
+exec bin/hubot --name npc -a slack
