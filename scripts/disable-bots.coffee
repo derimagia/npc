@@ -3,7 +3,7 @@
 
 module.exports = (robot) ->
   robot.receiveMiddleware (context, next, done) ->
-    if context.response.message.user.is_bot?
+    if context.response.message.user.is_bot
       done()
     else
       next(done)
