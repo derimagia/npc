@@ -3,8 +3,7 @@
 
 module.exports = (robot) ->
   robot.receiveMiddleware (context, next, done) ->
-    console.log(context.response.message.user)
-    if context.response.message.user.is_bot || context.response.message.user.name == ""
+    if context.response.message.user.is_bot || context.response.message.user.name == "rss"
       done()
     else
       next(done)
