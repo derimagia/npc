@@ -12,7 +12,7 @@ cleverbot = require('cleverbot-node')
 module.exports = (robot) ->
   c = new cleverbot()
 
-  cleverbot.configure({botapi: process.env.CLEVERBOT_API_KEY});
+  c.configure({botapi: process.env.CLEVERBOT_API_KEY});
 
   robot.respond /(.*)/i, (msg) ->
     data = msg.match[1].trim()
